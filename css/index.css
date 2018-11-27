@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background: aqua;
+    text-align: center;
+    line-height: 70px;
+}
+.logo{
+    margin-top: 10px;
+}
+.img1{
+    margin-left: 100px;
+}
+.head2{
+    background: rgb(226, 226, 226);
+    line-height: 60px;
+}
+/* 导航条的间距调整 */
+.a1,.a2,.a3,.a4{
+    font-size: 20px;
+    text-decoration-line: none;
+    color: cornflowerblue;
+    
+}
+.a1{
+    margin-left: 160px;
+}
+.a2,.a3,.a4{
+    margin-left: 90px;
+}
+.admin{
+    margin-left: 180px;
+}
+.person{
+    text-decoration-line: none;
+    font-size: 15px;
+}
+.change{
+    text-decoration-line: none;
+
+}
+/* 菜单选择 */
+.menu{
+    margin-left: 100px;
+    margin-top: 20px;  
+}
+.menu1,.menu2,.menu3{
+    text-decoration-line: none;
+}
+/* 分类 */
+.kind{
+    background: rgb(226, 226, 226);
+    line-height: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+    word-spacing: 15px;
+}
+a{
+    text-decoration-line: none;
+}
+.kind>.pp1>a{
+    color: black;
+    
+    
+}
+.pp1{
+    margin-top: 0px;
+    display: block;
+}
+.kind>.pp1>a:hover{
+    color: chocolate;
+}
